@@ -1,0 +1,33 @@
+
+  #invisibleOne{
+	opacity:1;
+	cursor:auto;
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:900;
+	overflow:hidden;
+	top:0;
+	left:0;
+	margin:0;
+	padding:0;
+	background-color:#555555;
+	
+}
+body{
+background: #FFDEC8;
+
+}
+
+#abgne-gallery{
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 25%;
+
+}
+
+#gohome{
+
+  text-align: center;
+}
