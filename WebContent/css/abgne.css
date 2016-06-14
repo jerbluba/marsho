@@ -1,0 +1,61 @@
+#abgne-gallery {
+	position: relative;
+
+	height: 400px;	/* 整個區塊的高 */
+}
+#abgne-gallery ul {
+	width: 80%;	/* 整個區塊的寬 - 兩個左右鈕的寬 */
+	height: 400px;
+	position: absolute;
+	left:10%;		/* 一個左鈕的寬 */
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#abgne-gallery li a {
+	outline: none;
+}
+#abgne-gallery li a img {
+	vertical-align: middle;
+	border: none;
+	height:400px;
+}
+#abgne-gallery .controls {
+	position: absolute;
+	top: 180px;		/* (整個區塊的高 - 自己的高) / 2 */
+	display: block;
+	width: 40px;
+	height: 40px;
+	outline: none;
+	background: url(../img/arrow.png) no-repeat;
+}
+#abgne-gallery .previous {
+	left: 0;
+	background-position:-150px -80px;
+
+}
+#abgne-gallery .next {
+	right: 0;
+	background-position:-70px -80px;
+	float:right;
+}
+
+#abgne-gallery .previous:active {
+
+	background-position:-150px -30px;
+
+}
+#abgne-gallery .next:active {
+
+	background-position:-70px -30px;
+
+}
+#alt{
+	font-size:15pt;
+	margin:auto;
+	color:#456;
+	float:initial;
+	text-align: -webkit-center;
+	text-align:center; 
+}

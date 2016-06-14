@@ -1,0 +1,553 @@
+
+
+
+
+ ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html,  blockquote, fieldset, input, p { margin: 0; padding: 0; }
+ 
+ html {
+	width: 1100px;
+	margin:auto;
+}
+body {
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	/*font-family:"Helvetica Neue", sans-serif ;*/
+	
+	font-family:"Hiragino Kaku Gothic ProN", "��????", YuGothic, Meiryo, sans-serif;
+font-size:14px;
+	line-height: 200%;
+	margin: 0px;
+	width: 100%;
+	text-align: justify;
+text-justify:inter-ideograph;
+}
+
+h5{
+	display : inline;
+	font-size:10pt;
+	line-height:150%;
+}
+ 
+ /*=================
+#header-wrap
+
+	background:url(../img/musroom.jpg) no-repeat;
+	background-size:cover;
+=================== */
+
+#header-wrap {
+	height:250px;
+	position:relative;
+} 
+
+  
+  #top-table{ 
+  vertical-align:bottom;
+
+  }
+ #top-table td{
+ padding-top:16mm; 
+ }
+ 
+
+ #top-link{
+  width:300px;
+ height:180px;
+ background:url(../img/logo.png) no-repeat;
+  background-size: 1000px;
+  background-position: -100px -200px;
+
+ 
+ }
+ #top-link:hover{
+	cursor:pointer;
+}	
+ 
+
+/*========================================================================
+main
+===========================================================================*/
+
+.container { 
+
+margin: 0 auto; height: 800px; 
+display: -webkit-flex; /* Safari */
+    display: flex;
+position:relative;
+z-index:2;
+
+}
+.container div{ float: left; }
+
+.main-table{
+margin:auto;
+margin-top:10pt;
+width:80%;
+}
+
+.main-table td{
+	vertical-align:top;
+}
+
+#list{
+	margin:auto;
+	margin-top:10pt;
+	width:80%;
+}
+
+#list table{
+	margin:auto;
+	margin-top:10pt;
+	width:80%;
+	border-style: solid;
+}
+
+
+
+
+/*======================================================================== 
+	subMenu
+  ========================================================================*/
+#subMenu {
+	width: 300px;
+	display: inline;	
+	float: left;
+	background: background: #ff9933; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ff9933 0%, #d3792a 92%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 92%, color-stop(0%,#ff9933), color-stop(100%,#d3792a)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ff9933 0%,#d3792a 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#d3792a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+
+	 white-space:nowrap; 
+	overflow: hidden; 
+	font-size:8pt;
+	height:800px;
+}
+
+#subMenu h2 {
+	width:85%;
+	height: 35px;	
+	display: block;
+	color: rgba(32,108,39,0.83);
+	line-height: 32px;
+	font-weight: bold;
+	padding-left: 15%;
+	text-align: left;
+	padding-bottom:0px;
+	font-size:17pt;
+	margin-top: 3mm;
+	
+}
+
+#subMenu ul li {
+	width: 100%;
+	height: 30px;
+	line-height: 35px;
+	display: block;
+	padding-left: 33%;	
+	color: #000;
+	font-size:12pt;
+	padding-top: 0.5mm;
+padding-bottom: 0.5mm;
+}
+
+
+
+#subMenu ul li.sel {
+	color: #6AA343;
+background: #fff;
+
+}
+
+#subMenu h2.sel {
+	color: rgba(32,108,39,0.83);
+background: #fff; 
+}
+
+
+
+
+#subMenu h2:hover {
+	cursor: pointer;
+	color: #6AA343;
+	font-weight: bold;
+	
+}
+#subMenu a{
+color: rgba(32,108,39,0.83);
+text-decoration: blink;
+}
+#subMenu a:visited{
+color: rgba(32,108,39,0.83);
+text-decoration: blink;
+}
+
+#subMenu li:hover {
+	cursor: pointer;
+	color: #6AA343;
+	font-weight: bold;
+}
+.subleft{
+position:relative;
+z-index:2;
+width:100px;
+min-width:300px;
+}
+/*======================================================================== 
+	.paragraph
+  ========================================================================*/
+.subright{
+position:relative;
+
+width:100%;
+}
+
+.paragraph{
+	/*border-style:solid;
+	border-color:#6AA343;height:400px;	
+	*/
+	width:75%;
+	display: inline;	
+	float:left;
+	line-height: 200%;
+	height:550px;
+	overflow-y:auto;
+	background:#FFDEC8;
+	padding-top:10pt;
+	position:relative;
+z-index:2;
+}
+.paragraph a:link {
+	text-decoration: none;
+	color: #005ead;
+}
+.paragraph a:visited {
+	text-decoration: none;
+	color: #005ead;
+}
+.paragraph a:hover {
+	text-decoration: underline;
+	color: #005ead;
+}
+.paragraph a:active {
+	text-decoration: none;
+	color: #005ead;
+}
+
+
+/*===================================================================
+footer
+===================================================================*/ 
+
+
+.foot-container{
+	display: -webkit-flex; /* Safari */
+    display: flex;
+    
+	background: background: #ff9933; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  #ff9933 0%, #d3792a 92%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 92%, color-stop(0%,#ff9933), color-stop(100%,#d3792a)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  #ff9933 0%,#d3792a 92%); /* IE10+ */
+background: radial-gradient(ellipse at center,  #ff9933 0%,#d3792a 92%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9933', endColorstr='#d3792a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+color:#fff;
+height:auto;
+position:relative;
+	z-index:3;
+}
+.foot-container table{
+	margin-top:10pt;
+	position:relative;
+	z-index:3;
+	font-size:16pt;
+	font-weight:bold;
+	width:33%;
+	height:100%;
+}
+.foot-container a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+	
+.foot-container a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#facebook_table a{
+color:#000;
+}
+
+#facebook_table td{
+	vertical-align:top;
+	height:15px;
+	padding-left:25px;
+}
+
+#utube{
+  background: url(../img/youtube.png) no-repeat;
+  width: 130px;
+  height: 100px;
+
+}
+
+#mail{
+     background: url(../img/email.png) no-repeat -0px -80px;
+  width: 60px;
+  background-size: 120px;
+  height: 62.5px;
+  padding-top: 75px;
+  white-space: nowrap;
+    margin-top: 10px;
+	font-size:10pt;
+}
+#mail:active{
+  background: url(../img/email.png) no-repeat -60px -64px;
+   background-size: 120px;
+	width: 60px;
+	height: 64px;
+}
+
+#footTitle{
+	border-bottom:2px solid rgba(220,217,202,0.3);
+}
+#contant-table td{
+	padding-left:10%;
+	padding-right:10%;
+}
+
+#map-table td{
+	padding-left:10%;
+	padding-right:10%;
+}
+#tel{
+font-size:10pt;
+}
+.leftTable{
+  border-right: 2px solid rgba(220,217,202,0.3);
+
+}
+
+.paragraph{
+	width:100%;
+
+}
+
+
+/*======================================================================== 
+留言板
+  ========================================================================*/
+#send{
+  margin: auto;
+  width: 100%;
+}
+#showBoard{
+	color:#985913;
+	font-weight:bold;
+	font-size:17pt;
+	margin-top:10pt;
+}
+
+#nameShow{
+	color:#510287;
+	font-weight:bold;
+	font-size:14pt;
+	margin-top:10pt;
+
+}
+#commentShow{
+padding:2% 5% 5% 10%;
+ background: url('../img/speech.png') no-repeat;
+  background-size: 100% 100%;
+  color:#FFC751;
+	font-weight:bold;
+	font-size:14pt;
+	margin-top:10pt;
+}
+
+#subTitle{
+	color:#510287;
+	font-weight:bold;
+	font-size:14pt;
+	margin-top:10pt;
+}
+
+.bug{
+color: red; 
+visibility:hidden;
+
+}
+
+#clickme{
+cursor:pointer;
+  background: url('../img/chat.png') no-repeat;
+  width: 200px;
+  height: 40px;
+  background-size: 40px;
+  padding-left: 40px;
+color:#985913;
+	font-weight:bold;
+	font-size:17pt;
+	margin-top:10pt;
+}
+#nameShow{
+	white-space:nowrap;
+}
+#messages #iconShow{
+margin-top:100%;
+
+}
+#iconShow{
+	
+  width: 54px;
+  height: 63px;
+}
+.iconShow0{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -10px -5px;
+}
+
+.iconShow1{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -84px -5px;
+}
+
+.iconShow2{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -159px -5px;
+}
+
+.iconShow3{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -233px -5px;
+}
+.iconShow4{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -10px -79px;
+}
+
+.iconShow5{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -84px -79px;
+}
+
+.iconShow6{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -159px -79px;
+}
+
+.iconShow7{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -233px -79px;
+}
+.iconShow8{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -10px -153px;
+}
+
+.iconShow9{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -84px -153px;
+}
+
+.iconShow10{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -159px -153px;
+}
+
+.iconShow11{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -233px -153px;
+}
+.iconShow12{
+background:url("../img/happy_mushroom.png") no-repeat;
+	  background-size: 296px 296px;
+	background-position: -10px -227px;
+}
+/*======================================================================== 
+雜項
+  ========================================================================*/
+#textTitle{
+	color:#985913;
+	font-weight:bold;
+	font-size:17pt;
+	margin-top:10pt;
+}
+#subTitle{
+	color:#510287;
+	font-weight:bold;
+	font-size:14pt;
+	margin-top:10pt;
+}
+
+  #invisibleOne{
+	opacity:1;
+	cursor:auto;
+	display:none;
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:900;
+	overflow:hidden;
+	top:0;
+	left:0;
+	margin:0;
+	padding-top:20%;
+	background-color:#555555;
+	
+}
+
+#mush{
+	background: url(../img/mush.png) no-repeat;
+  
+  background-size: 40px 40px; 
+  height: 40px;
+  width: 40px;
+  cursor:pointer;
+}
+
+#showGood{
+	position:absolute;
+	display:none;
+	z-index:901;
+	height: 100%;
+	 width: 60%;
+	 margin-top:-40%;
+	  margin-left:-10%;
+}
+#chaos{
+	 height: 100%;
+	 width: 100%;
+}
+
+
+#abgne-gallery {
+
+	width: 100%;	/* 整個區塊的寬 */
+}
+
+#attr{
+	font-size:10pt;
+}
+
+
